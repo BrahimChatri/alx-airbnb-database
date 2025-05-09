@@ -46,7 +46,7 @@ Create an Entity-Relationship Diagram (ERD) that models the core data structure 
 
 ## ER Diagram
 The ER diagram can be found in the file:  
-📎 `ERD/airbnb_er_diagram.drawio` *(or .png/.svg if exported)*
+📎 <img src="Untitled Diagram.drawio.png"/>
 
 ## Tools
 - Diagram created using [Draw.io](https://draw.io)
