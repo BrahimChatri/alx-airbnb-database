@@ -21,4 +21,4 @@ All tables are designed to comply with 3NF normalization.
 You can run the schema file using:
 
 ```bash
-psql -d your_database -f schema.sql
+psql -d airbnb_clone -f seed.sql
