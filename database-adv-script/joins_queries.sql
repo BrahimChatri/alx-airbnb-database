@@ -9,6 +9,12 @@ SELECT
 FROM bookings
 INNER JOIN users ON bookings.user_id = users.id;
 
+-- INNER JOIN: bookings with users
+SELECT b.id AS booking_id, u.id AS user_id, u.name
+FROM bookings b
+INNER JOIN users u ON b.user_id = u.id
+ORDER BY b.booking_date DESC;
+
 
 -- 2. LEFT JOIN: Retrieve all properties and their reviews, including properties that have no reviews
 SELECT 
